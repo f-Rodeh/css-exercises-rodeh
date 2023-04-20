@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
 }
 
-.card *{
+.card > *{
   margin: 8px;
   padding: 8px;
 }
@@ -37,5 +37,5 @@ button {
   border: 1px solid #eee;
   display: block;
   padding: 8px 24px;
-  margin:  auto !important;
+  margin:  auto;
 }
