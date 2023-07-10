@@ -52,6 +52,15 @@
 .sidebar {
   grid-area: sidebar;
   background-color: #FF7755;
+
+  display: grid;
+  gap: 24px;
+}
+
+.sidebar .side-content,
+.sidebar .photo {
+  display: grid;
+  place-items: center;
 }
 
 .sidebar .photo {
